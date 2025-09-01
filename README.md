@@ -1,10 +1,10 @@
-# 🎬 IMDb Movie Clustering & Recommendation System  
+#  IMDb Movie Clustering & Recommendation System  
 
 This project explores **unsupervised learning** by clustering IMDb movies based on their **plot tags** and metadata. Using **SentenceTransformer embeddings** and **KMeans clustering**, it groups similar movies and enables a simple recommendation engine.  
 
 ---
 
-## 🔑 Features  
+##  Features  
 - **Data Cleaning & Preprocessing**  
   - Converts `Released_Year`, `Runtime`, and `Gross` into numeric values.  
   - Fills missing values in `Meta_score`, `Gross`, and `Certificate`.  
@@ -21,14 +21,14 @@ This project explores **unsupervised learning** by clustering IMDb movies based 
 
 ---
 
-## 📊 Visualizations  
+##  Visualizations  
 - **Elbow Method plot** → helps identify optimal number of clusters.  
 - **Silhouette Score plot** → evaluates cluster quality.  
 
 ---
 
-## 🛠️ Tech Stack  
-- **Python** 🐍  
+##  Tech Stack  
+- **Python**   
 - **Pandas, NumPy** – Data manipulation  
 - **Matplotlib, Seaborn** – Visualizations  
 - **SentenceTransformers** – Text embeddings  
@@ -36,9 +36,9 @@ This project explores **unsupervised learning** by clustering IMDb movies based 
 
 ---
 
-## 🚀 Getting Started  
+##  Getting Started  
 
-### 1️⃣ Clone the Repository  
+###  Clone the Repository  
 ```bash
 git clone https://github.com/your-username/imdb-movie-clustering.git
 cd imdb-movie-clustering
